@@ -1,0 +1,26 @@
+/*body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}*/
+
+.footer-link-text {
+    font-size: 14px;
+    line-height: 200%;
+    font-weight: 400;
+}
+
+a.footer-link-text {
+    font-size: 14px;
+    line-height: 200%;
+    text-decoration: none;
+}
+
+
+.footer-link-text::after {
+  content: "";
+  display: block;
+}
